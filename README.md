@@ -9,4 +9,4 @@ use "git log" to see the history
 use "git --no-pager log -2 " to see ur last 2 commit history 
 use 'git --no-pager log --since="5min" ' to see ur commits in the last 5mins 
 use 'git log --format=" * %h %ad | %s %d [%an]" --date=short  ' to Show logs in a personalized format, including the commit hash, date, message, branch information, and author name
-use "git checkout" to check it out 
+use "git checkout" to check it out and moving inside the working tree 

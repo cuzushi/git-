@@ -16,4 +16,4 @@ use "git tag" to Display a list of all tags present in the repository to verify 
 use "git restore --staged" to Takes the file out of the Staging Area <br/>
 use "git restore " to restore change by copies the clean version from the Staging Area back onto your desk, overwriting your edits <br/>
 use " git revert " to preserves history and it moves forward by adding an inverse commit <br/>
-use "git reset --hard <target>" to Move branch pointer backward & wipe files <br/>
+use "git reset --hard <target>" to moves main (and HEAD) back to v1 and discards everything after it from the branch. <br/>

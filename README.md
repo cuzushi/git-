@@ -21,4 +21,4 @@ use "git log --oneline --all " to shows every ref, including oops, so the "delet
 use "git tag -d"to delete the tag <br/>
 use "git reflog expire --expire=now --all" The reflog also remembers old positions of HEAD (by default for ~90 days), so it must be expired.<br/>
 use "git gc --prune=now " to physically removes unreachable objects.<br/>
-
+use "git commit --amend -m " to replaces the last commit with a new one that includes the staged changes. The hash changes, so never amend commits you've already pushed to others. <br>

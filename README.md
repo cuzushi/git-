@@ -17,4 +17,8 @@ use "git restore --staged" to Takes the file out of the Staging Area <br/>
 use "git restore " to restore change by copies the clean version from the Staging Area back onto your desk, overwriting your edits <br/>
 use " git revert " to preserves history and it moves forward by adding an inverse commit <br/>
 use "git reset --hard <target>" to moves main (and HEAD) back to v1 and discards everything after it from the branch. <br/>
-use "git log --oneline --all " to shows every ref, including oops, so the "deleted" commits appear.
+use "git log --oneline --all " to shows every ref, including oops, so the "deleted" commits appear <br/>
+use "git tag -d"to delete the tag <br/>
+use "git reflog expire --expire=now --all" The reflog also remembers old positions of HEAD (by default for ~90 days), so it must be expired.<br/>
+use "git gc --prune=now " to physically removes unreachable objects.<br/>
+

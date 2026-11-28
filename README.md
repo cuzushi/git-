@@ -277,8 +277,6 @@ hooks/: scripts that run on some events like before a commit.
 
 # Latest object hash, its type and content
 
-find .git/objects -type f
-
 git rev-parse HEAD
 
 git cat-file -t <hash>

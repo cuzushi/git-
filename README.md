@@ -301,11 +301,11 @@ a commit points to a tree, a tree points to other trees and to blobs, and a blob
 
 git checkout -b greet
 
-# Create lib/greeter.sh
+# Create greeter.sh
 
 I created the file with the code from the subject then:
 
-git add lib/greeter.sh
+git add greeter.sh
 
 git commit -m "Add greeter"
 

@@ -340,15 +340,17 @@ git commit -m "Add README"
 # Commit tree diagram
 
 ```
-              G1---G2---G3        greet
-             /
-A---B---...---M---R               main
+v1---A---M---K---R              main
+               \
+                G1---G2---G3    greet
 
-M = Add Makefile
-R = Add README
-G1 = Add greeter
+A = add author
+M = move hello.sh into lib
+K = add makefile
+R = add readme
+G1 = add greeter
 G2 = Use Greeter in hello.sh
-G3 = Update Makefile comment
+G3 = update makefile comment
 ```
 
 I checked it with: git log --graph --oneline --all
